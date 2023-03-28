@@ -1,0 +1,135 @@
+a{
+    /* padding:30px; */
+    font-size: 20px;
+}
+.logo{
+    background-color:#518E78 ;
+    height:60px;
+    width: 150px;
+    padding:10px 0px 0px 40px;
+    font-size:23px;
+}
+.para_div{
+    margin-top:180px;
+    margin-left: 150px;
+}
+.para_div p{
+    font-size:18px;
+}
+.para_div h1{
+    font-size:60px;
+}
+.para_div button{
+    background-color:#446D5E;
+    width:160px;
+    border-radius: 1px;
+}
+.para_div2{
+    margin-top: 300px;
+    font-size: 18px;
+}
+#modalbox{
+    position: absolute;
+    z-index:1;
+    color: #fff;
+    top:120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:55%;
+    text-align: center;
+    padding:50px 60px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #446D5E;
+    border-radius:1px;
+    display:block;
+    height:300px;
+
+    
+}
+#modalbox button{
+    background:#fff;
+    color:#000;
+    font-size: 16px;
+    height:30px;
+    font-weight:500;
+    width:20%;
+    border: 0;
+    outline:0;
+    cursor: pointer;
+}
+#modalbox h3{
+    font-size: 30px;
+}
+#modalbox p{
+    font-size:16px;
+}
+
+
+@media(min-width:800px and max-width:1200px) {}
+
+@media(min-width:650px and max-width:799px) {}
+
+@media(min-width:480px and max-width:649px) {}
+
+@media( max-width:440px) {
+    .img1{
+        height:30vh;
+        width:100%;
+        object-fit:cover;
+    }
+    .para_div{
+        margin-top:50px;
+        margin-left: 50px;
+    }
+    .para_div h1{
+        font-size:40px;
+        text-align: center;
+    }
+    .para_div p{
+        justify-content: left;
+    }
+    .para_div button{
+        margin-left:50px
+    }
+
+    #modalbox{
+        top:830px;
+        left: 53%;
+        transform: translate(-50%,-50%);
+        width:70%;
+        text-align: center;
+        padding:50px 60px;
+        font-weight: 500;
+        background: #446D5E;
+        border-radius:1px;
+        display:block;
+        height:300px;
+
+    }
+    #modalbox h3{
+        font-size:15px;
+    }
+
+    #modalbox p{
+        font-size:12px;
+    }
+    #modalbox button{
+        background:#fff;
+        color:#000;
+        font-size: 16px;
+        height:30px;
+        font-weight:500;
+        width:170px;
+        border: 0;
+        outline:0;
+        cursor: pointer;
+        margin-left:-15px;
+    }
+    .img2{
+        height:30vh;
+        width:100%;
+        object-fit:cover;
+    }
+
+}
