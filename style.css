@@ -73,6 +73,9 @@ a{
 @media(min-width:480px and max-width:649px) {}
 
 @media( max-width:440px) {
+    .nav_items2 li{
+        margin-left:-40px;
+    }
     .img1{
         height:30vh;
         width:100%;
@@ -83,8 +86,9 @@ a{
         margin-left: 50px;
     }
     .para_div h1{
-        font-size:40px;
+        font-size:30px;
         text-align: center;
+        margin-right:30px;
     }
     .para_div p{
         justify-content: left;
@@ -94,8 +98,8 @@ a{
     }
 
     #modalbox{
-        top:830px;
-        left: 53%;
+        top:783px;
+        left: 50%;
         transform: translate(-50%,-50%);
         width:70%;
         text-align: center;
